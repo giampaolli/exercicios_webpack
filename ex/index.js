@@ -1,3 +1,4 @@
-const logger = require('./logger')
+import Pessoa from './pessoa'
 
-logger.info('Usando o padão CommonJS')
+const pessoa = new Pessoa('Felipe')
+console.log(pessoa.toString())
